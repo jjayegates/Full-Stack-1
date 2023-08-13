@@ -14,7 +14,7 @@ const routes: Routes = [
     { path: '', component: HomeComponent, pathMatch: 'full' }
 ]
 
-@NgModule({ 
+@NgModule({
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
 })
